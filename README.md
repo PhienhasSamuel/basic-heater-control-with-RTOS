@@ -40,7 +40,7 @@ This project implements a basic heater control system using an ESP32, DHT22 temp
 | > 30.5°C    | Overheat           | OFF    | ON     |
 | Sensor Fail | Idle               | OFF    | OFF    |
 
-## 🧪 Simulation
+## Simulation
 
 You can simulate this project using [Wokwi](https://wokwi.com/).  
 🔗 **Simulation Link**: https://wokwi.com/projects/430532436168855553
