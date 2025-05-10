@@ -1,8 +1,8 @@
-# 🔥 ESP32 Heater Control System
+# ESP32 Heater Control System
 
 This project implements a basic heater control system using an ESP32, DHT22 temperature sensor, and simulated heater (LED). It operates based on temperature thresholds and tracks system states such as Idle, Heating, Stabilizing, Target Reached, and Overheat. The system also includes BLE advertising, buzzer alerts, and FreeRTOS-based task handling.
 
-## 🚀 Features
+## Features
 
 - ✅ Temperature-based state machine (Idle, Heating, Stabilizing, Target Reached, Overheat)
 - ✅ Automatic heater (LED) control
@@ -11,7 +11,7 @@ This project implements a basic heater control system using an ESP32, DHT22 temp
 - ✅ Serial logging of temperature and state
 - ✅ FreeRTOS-based periodic operations
 
-## 🧰 Hardware Requirements
+## Hardware Requirements
 
 - ESP32 development board  
 - DHT22 temperature sensor  
@@ -20,7 +20,7 @@ This project implements a basic heater control system using an ESP32, DHT22 temp
 - Resistors (if needed)  
 - Breadboard + jumper wires  
 
-### 🔌 Pin Connections
+### Pin Connections
 
 | Component     | ESP32 Pin |
 |---------------|-----------|
@@ -30,7 +30,7 @@ This project implements a basic heater control system using an ESP32, DHT22 temp
 | DHT22 (VCC)   | 3.3V      |
 | DHT22 (GND)   | GND       |
 
-## 🔁 State Machine Overview
+## State Machine Overview
 
 | Temperature | System State      | Heater | Buzzer |
 |-------------|-------------------|--------|--------|
